@@ -68,8 +68,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ![mirror](images/screengeheel.png)
 
 
-
 **Breakdown-schets(en):**
 
 ![mirror](images/breakdownschets.png)
+
+
+![style](images/styleguide.jpg)
 
