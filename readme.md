@@ -38,11 +38,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Veel dingen lukte gelijk maar sommige afbeeldingen plaatsen was wel nog even lastig. Ik heb wel nog moeite om soms het childelement goed in het parent element te zetten bijv. bij het logo bovenin, deze is niet responsive. 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![website](images/screenstyleguide.png)
+![styleguide](images/screenswebsite.png)
 
 ### Agenda voor meeting
 

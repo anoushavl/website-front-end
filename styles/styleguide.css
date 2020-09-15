@@ -60,15 +60,22 @@ figcaption {
     color: black;
 }
 
-#cover1  {
-    display: flex;
+.cover {
+    width: 95%;
+    height: auto;
+}
+
+ul  {
+     display: flex;
+      margin:0; padding:2em;
+     justify-content:space-between;
 
 }
 
-#cover1 img {
+ul li {
     list-style: none;
     flex: 33.33%;
-    padding: 5px;
+    padding: 7px;
 }
 
 footer {
