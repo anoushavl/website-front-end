@@ -1,66 +1,69 @@
-/* CSS Document */
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
+ /* CSS Document */
+ *,
+ *::after,
+ *::before {
+     box-sizing: border-box;
+ }
 
-#logo {
-    position: relative;
-    width:20%;
-    z-index: 1;
-}
+body {
+     background-image: url(../images/makeupbanner.jpg);
+     background-repeat: no-repeat;
+     width: 100%;
+ }
 
-#logo {
-    position: absolute;
-    left:13em;
-    top:2em;
-}
+ header a img {
+     margin: 0;
+     width: 70%;
+     height: auto;
+ }
 
-
-header img {
-    position: relative;
-    margin: 0;
-    width: 100%;
-    height: auto;
-}
-
-/*img:nth-of-type(2)  {
-    position: absolute;
-    top:0;
-    left:0;
-}*/
-
-p {
-    font-family: 'Antic Didone', serif;
-    color: black;
-    text-align: center;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-}
-
-figcaption {
-        font-family: 'Antic Didone', serif;
-    color: black;
-}
-
-.cover {
-    width: 95%;
-    height: auto;
-}
-
-ul  {
+ nav {
      display: flex;
-      margin:0; padding:2em;
-     justify-content:space-between;
+     justify-content: center;
+ }
 
-}
+ nav ul li {
+    text-decoration: none;
+     list-style: none;
+     font-family: 'Antic Didone', serif;
+     color: black;
+     text-align: center;
+ }
 
-ul li {
-    list-style: none;
-    flex: 33.33%;
-    padding: 7px;
-}
+ p {
+     font-family: 'Antic Didone', serif;
+     color: black;
+     text-align: center;
+ }
+
+
+ section:nth-of-type(1) {
+     display: flex;
+ }
+
+ section:nth-of-type(1) img {
+     width: 100%;
+     padding-bottom: 3em;
+ }
+
+ section:nth-of-type(2) {
+     display: flex;
+ }
+
+ article img {
+     width: 20em;
+     margin-left: 1em;
+
+ }
+
+ h2 {
+     font-family: 'Antic Didone', serif;
+     color: black;
+     margin: 0;
+     padding: 0;
+ }
+
+ h3 {
+     margin: 0;
+     padding: 0;
+ }
