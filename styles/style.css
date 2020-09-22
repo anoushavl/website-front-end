@@ -5,16 +5,23 @@
      box-sizing: border-box;
  }
 
-body {
+ img {
+     display: flex;
+ }
+
+ body header {
      background-image: url(../images/makeupbanner.jpg);
      background-repeat: no-repeat;
-     width: 100%;
+     display: grid;
+     grid-template-rows: 20em;
  }
 
  header a img {
-     margin: 0;
-     width: 70%;
+    display: flex;
+     /*     margin: 0;
+     width: 30%;
      height: auto;
+     align-content: center;*/
  }
 
  nav {
@@ -23,7 +30,7 @@ body {
  }
 
  nav ul li {
-    text-decoration: none;
+     text-decoration: none;
      list-style: none;
      font-family: 'Antic Didone', serif;
      color: black;
@@ -37,22 +44,13 @@ body {
  }
 
 
- section:nth-of-type(1) {
-     display: flex;
- }
-
- section:nth-of-type(1) img {
-     width: 100%;
+ section:first-of-type img {
      padding-bottom: 3em;
  }
 
- section:nth-of-type(2) {
-     display: flex;
- }
-
  article img {
-     width: 20em;
-     margin-left: 1em;
+     width: 100%;
+     height: 50%;
 
  }
 
