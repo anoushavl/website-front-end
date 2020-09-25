@@ -1,4 +1,4 @@
- /* CSS Document */
+  /* CSS Document */
  *,
  *::after,
  *::before {
@@ -9,33 +9,76 @@
      display: flex;
  }
 
- body header {
+ header {
      background-image: url(../images/makeupbanner.jpg);
      background-repeat: no-repeat;
-     display: grid;
-     grid-template-rows: 20em;
+     background-position: center;
+ }
+
+#inspiratie {
+     background-image: url(../images/inspiration.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
  }
 
  header a img {
-    display: flex;
-     /*     margin: 0;
-     width: 30%;
+/*     display: flex;*/
+     margin: 0;
+     width: 20%;
      height: auto;
-     align-content: center;*/
+     align-content: center;
+ }
+
+ .logo {
  }
 
  nav {
+     padding: 5em;
      display: flex;
      justify-content: center;
+     color: white;
  }
 
- nav ul li {
-     text-decoration: none;
-     list-style: none;
-     font-family: 'Antic Didone', serif;
-     color: black;
-     text-align: center;
- }
+
+main ul li a {
+    list-style: none;
+/*    padding: 10px;*/
+/*    margin: auto;*/
+
+}
+
+header nav ul li {
+
+    color: black;
+/*    padding: 2em;
+    margin: 2em;*/
+
+}
+
+header nav ul {
+
+    display: flex;
+    flex: auto;
+    list-style: none;
+    z-index: 2;
+/*    padding: 1em;*/
+    justify-content: center;
+
+}
+
+header nav ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Antic Didone', serif;
+}
+/*
+header nav a {
+    box-sizing: border-box;
+    width: 100%;*/
+
+}
 
  p {
      font-family: 'Antic Didone', serif;
