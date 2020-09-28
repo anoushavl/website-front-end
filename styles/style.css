@@ -1,110 +1,168 @@
   /* CSS Document */
- *,
- *::after,
- *::before {
-     box-sizing: border-box;
- }
+  *,
+  *::after,
+  *::before {
+      box-sizing: border-box;
+  }
 
- img {
-     display: flex;
- }
+  img {
+      display: flex;
+  }
 
- header {
-     background-image: url(../images/makeupbanner.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
- }
+  /*header*/
 
-#inspiratie {
-     background-image: url(../images/inspiration.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
- }
+  header {
+      background-image: url(../images/makeupbanner.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
 
- header a img {
-/*     display: flex;*/
-     margin: 0;
-     width: 20%;
-     height: auto;
-     align-content: center;
- }
+  #inspiration {
+      background-image: url(../images/inspiration.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
 
- .logo {
- }
+  header a img {
+      display: flex;
+      width: 5em;
+      align-content: center;
+      height: auto;
+  }
 
- nav {
-     padding: 5em;
-     display: flex;
-     justify-content: center;
-     color: white;
- }
+  #logo {
+      /*width: 100%;*/
+  }
+
+  nav {
+      padding-bottom: 10em;
+      display: flex;
+      color: white;
+      width: 100%;
+  }
+
+  main ul li a {
+      list-style: none;
+  }
+
+  header nav ul {
+      display: flex;
+      padding: 2em;
+      flex: auto;
+      list-style: none;
+      justify-content: center;
+  }
+
+  header nav ul li a {
+      padding: .5em;
+      margin: .5em;
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+      font-family: 'Antic Didone', serif;
+  }
+
+  /*main*/
+
+  blockquote {
+      font-family: 'Antic Didone', serif;
+      color: black;
+      text-align: center;
+  }
+
+  section img {
+      padding: 1em;
+  }
+
+  article img {
+      width: 100%;
+      height: 50%;
+  }
+
+  h2 {
+      font-family: 'Antic Didone', serif;
+      color: black;
+      margin: 0;
+      padding-bottom: 0;
+      text-align: center;
+  }
+
+  h2:nth-of-type(2) {
+      font-family: 'Antic Didone', serif;
+      color: black;
+      margin: 0;
+      padding-bottom: 0;
+  }
+
+  h3 {
+      font-family: 'Antic Didone', serif;
+      color: black;
+      margin: 0;
+      padding: 1em;
+  }
+
+  /*footer*/
+
+  footer {
+      display: inline-block;
+      width: 100%;
+      background-color: #D8D4D8;
+      padding: 3em;
+      justify-content: center;
+  }
+
+  footer ul {
+      display: flex;
+      flex: auto;
+      padding-bottom: 1em;
+      color: white;
+  }
+
+  footer ul li {
+      display: flex;
+      flex: auto;
+      list-style: none;
+  }
+
+  footer img {
+      width: 40%;
+      height: auto;
+  }
+
+  .icons {
+      display: flex;
+      justify-content: center;
+  }
+
+  p {
+      font-family: proxima-nova, sans-serif;
+      font-style: normal;
+      font-weight: 100;
+      color: black;
+      text-align: center;
+  }
+
+  p a {
+      text-decoration: none;
+      color: black;
+  }
 
 
-main ul li a {
-    list-style: none;
-/*    padding: 10px;*/
-/*    margin: auto;*/
+  /*breakpoints*/
 
-}
+  @media (min-width:40em) {
+      main {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1em;
+          padding: 1em;
+      }
+  }
 
-header nav ul li {
-
-    color: black;
-/*    padding: 2em;
-    margin: 2em;*/
-
-}
-
-header nav ul {
-
-    display: flex;
-    flex: auto;
-    list-style: none;
-    z-index: 2;
-/*    padding: 1em;*/
-    justify-content: center;
-
-}
-
-header nav ul li a {
-
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    font-family: 'Antic Didone', serif;
-}
-/*
-header nav a {
-    box-sizing: border-box;
-    width: 100%;*/
-
-}
-
- p {
-     font-family: 'Antic Didone', serif;
-     color: black;
-     text-align: center;
- }
-
-
- section:first-of-type img {
-     padding-bottom: 3em;
- }
-
- article img {
-     width: 100%;
-     height: 50%;
-
- }
-
- h2 {
-     font-family: 'Antic Didone', serif;
-     color: black;
-     margin: 0;
-     padding: 0;
- }
-
- h3 {
-     margin: 0;
-     padding: 0;
- }
+  @media (min-width:60em) {
+      #grid {
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 1em;
+          padding: 1em;
+      }
+  }
