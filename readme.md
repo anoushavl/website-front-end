@@ -30,7 +30,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+### Agenda voor meeting
+
+![website](images/homepage)
+![website](images/hpagecovers)
+![website](images/inspiration)
+![website](images/insposhoots)
+
+
+
 
 
 
@@ -50,9 +60,6 @@ Veel dingen lukte gelijk maar sommige afbeeldingen plaatsen was wel nog even las
 -samen met je groepje opstellen-
 
 ### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
 
 
 ## Intake (week 1)
