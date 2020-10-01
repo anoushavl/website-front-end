@@ -40,6 +40,7 @@ Ik wil nog een slideshow maken in de header van de homepagina.
 keyframes (slideshow)
 grids (1 afbeelding doet raar)
 animaties (welke animaties zijn mogelijk)
+wat is het verschil tussen em en rem?
 
 **Screenshot(s):**
 
