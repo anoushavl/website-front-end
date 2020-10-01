@@ -32,16 +32,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
+Ik heb grids toegevoegd aan mijn website en meer content erop gepost. Ik had veel moeite om een 
+
 ### Agenda voor meeting
 
-![website](images/homepage.png)
-![website](images/hpagecovers.png)
-![website](images/inspiration.png)
-![website](images/insposhoots.png)
+**Screenshot(s):**
 
-
-
-
+![homepage](images/homepage.png)
+![homepage2](images/hpagecovers.png)
+![inpsiration](images/inspiration.png)
+![inpsiration2](images/insposhoots.png)
 
 
 ## Voortgang 1 (week 3)

@@ -9,29 +9,28 @@
       display: flex;
   }
 
+  .logo {
+      padding-top: 1em;
+  }
+
   /*header*/
 
   header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       background-image: url(../images/makeupbanner.jpg);
       background-repeat: no-repeat;
       background-position: center;
+      background-size: cover;
   }
 
   #inspiration {
       background-image: url(../images/inspiration.jpg);
       background-repeat: no-repeat;
       background-position: center;
-  }
-
-  header a img {
-      display: flex;
-      width: 5em;
-      align-content: center;
-      height: auto;
-  }
-
-  #logo {
-      /*width: 100%;*/
+      background-size: cover;
   }
 
   nav {
@@ -47,7 +46,7 @@
 
   header nav ul {
       display: flex;
-      padding: 2em;
+      padding: 1em;
       flex: auto;
       list-style: none;
       justify-content: center;
@@ -58,7 +57,7 @@
       margin: .5em;
       text-decoration: none;
       color: white;
-      font-size: 12px;
+      font-size: 1em;
       font-family: 'Antic Didone', serif;
   }
 
@@ -98,7 +97,8 @@
       font-family: 'Antic Didone', serif;
       color: black;
       margin: 0;
-      padding: 1em;
+      padding: 0.5em;
+      text-align: center;
   }
 
   /*footer*/
@@ -147,11 +147,19 @@
       color: black;
   }
 
-
   /*breakpoints*/
 
   @media (min-width:40em) {
-      main {
+      .covers {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1em;
+          padding: 1em;
+      }
+  }
+
+  @media (min-width:40em) {
+      .inspog {
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-gap: 1em;
@@ -160,9 +168,24 @@
   }
 
   @media (min-width:60em) {
-      #grid {
+      .inspog {
+          display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           grid-gap: 1em;
           padding: 1em;
       }
   }
+
+/*@keyframes menu-animation {
+  0% {
+    transform:opac(.5);
+  }
+  100% {
+    transform:scaleX(2);
+  }
+}
+
+nav {
+  animation-name:menu-animation;
+  animation-duration:3s;
+}*/
