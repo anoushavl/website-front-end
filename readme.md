@@ -34,10 +34,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
-![website](images/homepage)
-![website](images/hpagecovers)
-![website](images/inspiration)
-![website](images/insposhoots)
+![website](images/homepage.png)
+![website](images/hpagecovers.png)
+![website](images/inspiration.png)
+![website](images/insposhoots.png)
 
 
 
