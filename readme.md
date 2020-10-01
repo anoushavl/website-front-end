@@ -32,9 +32,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-Ik heb grids toegevoegd aan mijn website en meer content erop gepost. Ik had veel moeite om een 
+Ik heb grids toegevoegd aan mijn website en meer content er ingezet. Ik had veel moeite om een animatie te bedenken en ben daar pas later mee begonnen dan ik eigenlijk wilde. Ik ben ook al ver met de tweede pagina. 
+Ik wil nog een slideshow maken in de header van de homepagina. 
 
 ### Agenda voor meeting
+
+keyframes (slideshow)
+grids (1 afbeelding doet raar)
+animaties (welke animaties zijn mogelijk)
 
 **Screenshot(s):**
 
