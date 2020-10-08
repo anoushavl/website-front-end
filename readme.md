@@ -34,7 +34,7 @@ Hoe zorg ik ervoor om een logo bovenop een slider responsive te maken?
 **Screenshot(s):**
 
 ![slider](images/screenslider.png)
-![button]](images/screenbutton.png)
+![button](images/screenbutton.png)
 
 
 
