@@ -24,7 +24,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Ik heb de laatste week moeite gehad om aan frontend te werken. Ik vind animaties en de states best moeilijk om daarmee te beginnen. Ik ben bezig met de states en dat gaat tot nu toe goed. Voor de rest loop ik soms tegen wat dingetjes aan met positioneren. 
+
+### Agenda voor meeting
+
+Is er een animatie nodig als je al een animatie in je button hebt?
+Hoe zorg ik ervoor om een logo bovenop een slider responsive te maken?
+
+**Screenshot(s):**
+
+![slider](images/screenslider.png)
+![button]](images/screenbutton.png)
 
 
 
@@ -48,6 +58,7 @@ wat is het verschil tussen em en rem?
 ![homepage2](images/hpagecovers.png)
 ![inpsiration](images/inspiration.png)
 ![inpsiration2](images/insposhoots.png)
+
 
 
 ## Voortgang 1 (week 3)

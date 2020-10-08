@@ -34,17 +34,6 @@
   }
 
 
-  /*  header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-image: url(../images/makeupbanner.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-  }*/
-
   #inspiration {
       background-image: url(../images/inspiration.jpg);
       background-repeat: no-repeat;
@@ -52,8 +41,51 @@
       background-size: cover;
   }
 
+
+  #inspiration nav ul li a {
+      padding: .5em;
+      margin: .5em;
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      font-family: 'Abril Fatface', cursive;
+  }
+
+  .menu {
+      padding-top: 15em;
+  }
+
+  section article button {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+  button {
+      color: white;
+      border: none;
+/*      outline: none;
+      width: 5em;*/
+      max-width: calc(100% - 0px);
+      margin: auto;
+      font-size: 1.5em;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: .2em;
+      padding-bottom: .2em;
+      background: #EE1B49;
+      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 1em rgba(0, 0, 0, .5);
+      border-radius: .5em;
+  }
+  
+  button:hover {
+    background-color: #f2a3f5;
+    box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
+  }
+  
+
   nav {
-      /*     padding-bottom: 10em;*/
       display: flex;
       color: white;
       width: 100%;
@@ -78,7 +110,7 @@
       text-decoration: none;
       color: black;
       font-size: 1em;
-      font-family: 'Antic Didone', serif;
+      font-family: 'Abril Fatface', cursive;
   }
 
   /*main*/
@@ -95,14 +127,14 @@
 
   article img {
       width: 100%;
-      /*     height: 50%;*/
   }
 
   h2 {
       font-family: 'Antic Didone', serif;
       color: black;
       margin: 0;
-      padding-bottom: 0;
+      padding-bottom: 1em;
+      text-align: center;
   }
 
   h2:nth-of-type(2) {
@@ -122,6 +154,10 @@
 
   article ul li {
       list-style: none;
+  }
+
+  article ul {
+      padding: 0;
   }
 
   .like {
@@ -202,17 +238,3 @@
           padding: 1em;
       }
   }
-
-  /*@keyframes menu-animation {
-  0% {
-    transform:opac(.5);
-  }
-  100% {
-    transform:scaleX(2);
-  }
-}
-
-nav {
-  animation-name:menu-animation;
-  animation-duration:3s;
-}*/
