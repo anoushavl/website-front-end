@@ -1,4 +1,5 @@
   /* CSS Document */
+ /*alle afbeeldingen komt van https://www.mirror-mirror.nl/*/
   *,
   *::after,
   *::before {
@@ -9,17 +10,13 @@
       display: flex;
   }
 
+
   /*header*/
 
-  header {
-      width: 100%;
-      position: relative;
-  }
-
   #logo {
-      position: absolute;
-      top: 1em;
-      left: 14em;
+      padding-top: 1em;
+      margin: auto;
+      max-width: calc(100% - 20px);
   }
 
   .slider {
@@ -33,14 +30,12 @@
       height: auto;
   }
 
-
   #inspiration {
       background-image: url(../images/inspiration.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
   }
-
 
   #inspiration nav ul li a {
       padding: .5em;
@@ -54,36 +49,6 @@
   .menu {
       padding-top: 15em;
   }
-
-  section article button {
-      display: flex;
-      align-content: center;
-      justify-content: center;
-      text-align: center;
-  }
-
-  button {
-      color: white;
-      border: none;
-/*      outline: none;
-      width: 5em;*/
-      max-width: calc(100% - 0px);
-      margin: auto;
-      font-size: 1.5em;
-      padding-left: 1em;
-      padding-right: 1em;
-      padding-top: .2em;
-      padding-bottom: .2em;
-      background: #EE1B49;
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 1em rgba(0, 0, 0, .5);
-      border-radius: .5em;
-  }
-  
-  button:hover {
-    background-color: #f2a3f5;
-    box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
-  }
-  
 
   nav {
       display: flex;
@@ -113,16 +78,19 @@
       font-family: 'Abril Fatface', cursive;
   }
 
+
   /*main*/
 
   blockquote {
       font-family: 'Antic Didone', serif;
       color: black;
       text-align: center;
+      font-size: 1.2em;
   }
 
   section img {
       padding: 1em;
+      padding-bottom: 1.2em;
   }
 
   article img {
@@ -148,7 +116,7 @@
       font-family: 'Antic Didone', serif;
       color: black;
       margin: 0;
-      padding: 0.5em;
+      padding: .5em;
       text-align: center;
   }
 
@@ -163,6 +131,19 @@
   .like {
       width: 15%;
   }
+
+  iframe {
+      padding: .5em;
+      width: 100%;
+      height: 25em;
+  }
+
+  .banner {
+      padding: .5em;
+      width: 100%;
+      height: auto;
+  }
+
 
   /*footer*/
 
@@ -209,6 +190,51 @@
       text-decoration: none;
       color: black;
   }
+
+  section article button {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+
+  /*button*/
+
+  button {
+      color: white;
+      border: none;
+      max-width: calc(100% - 0px);
+      margin: auto;
+      font-size: 1.5em;
+      font-family: proxima-nova, sans-serif;
+      font-style: normal;
+      font-weight: 100;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: .2em;
+      padding-bottom: .2em;
+      background: #EE1B49;
+      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
+      border-radius: .5em;
+  }
+
+  button:hover {
+      background-color: #f2a3f5;
+      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
+  }
+
+  button:active {
+      background-color: #f2a3f5;
+      border: none;
+      transform: scale(0.9);
+  }
+
+  button:focus {
+      background-color: #f2a3f5;
+      outline-color: #EE1B49;
+  }
+
 
   /*breakpoints*/
 
