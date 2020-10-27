@@ -1,30 +1,41 @@
 # Procesverslag
-**Auteur:** -Anousha-
+-Anousha van Leent-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
+<!-- afbeeldingen, tekst, video -->
+1. https://www.mirror-mirror.nl/ 
+<!-- gebruikte fonts -->
+2. https://fonts.adobe.com/fonts/proxima-nova#about-section
+3. https://fonts.google.com/specimen/Abril+Fatface
+4. https://fonts.google.com/specimen/Antic+Didone
+5. https://fonts.adobe.com/fonts/ltc-bodoni-175
+<!-- heart, facebook, instagram & mail icon (rechtenvrij) -->
+6. https://feathericons.com/?query=heart
+<!-- video voor js -->
+7. https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik had veel moeite met de micro-animatie omdat ik javascript heel moeilijk vind. Ik vond dat het html en css deel van de website wel heel goed ging. Ik liep soms vast maar kon het snel oplossen door het op te zoeken of aan klasgenootjes te vragen. Ik heb op het eind nog een paar dingen veranderd zoals de video en wat typografie dingetjes. 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![header inpiration - desktop](images/screeninspheader.png)
+![micro-animatie - desktop](images/screenanimatie.png)
+![header en nav home - mobiel](images/screenslidenav.png)
+![video en content home - mobiel](images/screenvideocontent.png)
+
 
 
 
 ## Voortgang 3 (week 6)
 
-Ik heb de laatste week moeite gehad om aan frontend te werken. Ik vind animaties en de states best moeilijk om daarmee te beginnen. Ik ben bezig met de states en dat gaat tot nu toe goed. Voor de rest loop ik soms tegen wat dingetjes aan met positioneren. 
+Ik heb voor de laatste werkgroep moeite gehad om aan frontend te werken. Ik vind animaties en de states best moeilijk om daarmee te beginnen. Ik ben bezig met de states en dat gaat tot nu toe goed. Voor de rest loop ik soms tegen wat dingetjes aan met positioneren. 
 
 ### Agenda voor meeting
 

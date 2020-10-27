@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="nl">
+ <!doctype html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>mirror mirror</title>
     <link href="styles/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- alle afbeeldingen komt van https://www.mirror-mirror.nl/ -->
+    <!-- alle content komt van https://www.mirror-mirror.nl/ -->
     <header>
         <a href="index.html"><img id="logo" src="images/logowit.png" alt="logo"></a>
         <div class="slider">
@@ -23,6 +22,7 @@
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="inspiratie.html">INSPIRATION</a></li>
+                <li><a href="inspiratie.html">BEAUTY</a></li>
             </ul>
         </nav>
     </header>
@@ -44,10 +44,13 @@
         </section>
         <section>
             <article>
-                <iframe src="https://www.youtube.com/embed/Litmkh1mThE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <video autoplay muted loop>
+                    <source src="transitshoot.mp4" type="video/mp4">
+                </video>
             </article>
         </section>
         <img class="banner" src="images/banner.jpg" alt="cover gender">
+        <!-- hier heb ik een div gebruikt om een grid op te zetten -->
         <div class="covers">
             <article>
                 <img src="images/covergender.jpg" alt="cover gender">
@@ -58,8 +61,8 @@
                 <h3>PRESERVATION A/W 2018/2019, Patrovsky & Ramone</h3>
             </article>
             <article>
-                <img src="images/coverstory.jpg" alt="coverstory">
-                <h3>COVER STORY S/S 2019, Bastiaan Woudt</h3>
+                <img src="images/covertime.jpg" alt="cover time is now">
+                <h3>THE TIME IS NOW S/S 2019, Rahi Rezvani</h3>
             </article>
             <article>
                 <img src="images/coverskin.jpg" alt="cover smooth skin">
@@ -74,15 +77,22 @@
     </main>
     <footer>
         <ul>
-            <li class="icons"><a href="https://www.facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="logo facebook"></a></li>
-            <li class="icons"><a href="https://www.instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="logo instagram"></a></li>
-            <li class="icons"><a href="mailto:INFO@MIRROR-MIRROR.NL">
-                    <img src="images/mail.png" alt="logo mail"></a></li>
+            <li class="icons">
+                <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.png"alt="logo facebook"></a>
+            </li>
+            <li class="icons">
+                <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram.png"alt="logo instagram"></a>
+            </li>
+            <li class="icons">
+                <a href="mailto:INFO@MIRROR-MIRROR.NL">
+                <img src="images/mail.png"alt="logo mail"></a>
+            </li>
         </ul>
-        <p>MIRROR MIRROR IS PUBLISHED BY PARLOUR HOUSE MEDIA, RAAMGRACHT 25, AMSTERDAM, NH, NETHERLANDS +31204221975
-            <a href="mailto:INFO@MIRROR-MIRROR.NL">INFO@MIRROR-MIRROR.NL</a></p>
+            <p>MIRROR MIRROR IS PUBLISHED BY PARLOUR HOUSE MEDIA, RAAMGRACHT 25, AMSTERDAM, NH, NETHERLANDS +31204221975
+                <a href="mailto:INFO@MIRROR-MIRROR.NL">INFO@MIRROR-MIRROR.NL</a>
+            </p>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
