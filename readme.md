@@ -6,16 +6,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
--afbeeldingen, tekst, video-
+<!-- afbeeldingen, tekst, video -->
 1. https://www.mirror-mirror.nl/ 
--gebruikte fonts-
+<!-- gebruikte fonts -->
 2. https://fonts.adobe.com/fonts/proxima-nova#about-section
 3. https://fonts.google.com/specimen/Abril+Fatface
 4. https://fonts.google.com/specimen/Antic+Didone
 5. https://fonts.adobe.com/fonts/ltc-bodoni-175
--heart, facebook, instagram & mail icon (rechtenvrij)-
+<!-- heart, facebook, instagram & mail icon (rechtenvrij) -->
 6. https://feathericons.com/?query=heart
--video voor js-
+<!-- video voor js -->
 7. https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
 
 

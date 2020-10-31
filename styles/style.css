@@ -84,6 +84,19 @@
       text-shadow: .1em .1em #EE1B49;
   }
 
+  #rol nav ul li a {
+      /*      padding: .5em;
+      margin: .5em;*/
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      font-family: 'Abril Fatface', cursive;
+  }
+
+  #rol li a {
+      text-shadow: .1em .1em #EE1B49;
+  }
+
 
   /*header image inspiration*/
 
@@ -94,6 +107,23 @@
       background-size: cover;
   }
 
+  #rol {
+      background-image: url(../images/rol.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+
+  #rol h1 {
+      padding-top: 2em;
+      color: white;
+      font-size: 2em;
+  }
+
+  #rol time {
+      color: white;
+      font-size: 1.5em;
+  }
 
   /*main*/
 
@@ -116,12 +146,23 @@
       margin: auto;
   }
 
-  h2 {
-      font-family: 'Antic Didone', serif;
+  h1 {
+      font-size: 1.5em;
+      font-family: 'Abril Fatface', cursive;
       color: black;
       margin: 0;
       padding-bottom: 1em;
       text-align: center;
+      text-shadow: .08em .08em #EE1B49;
+  }
+
+  h2 {
+      font-family: 'Antic Didone', serif;
+      color: black;
+      margin: 0;
+      padding: .5em;
+      text-align: center;
+      text-transform: uppercase;
   }
 
   h3 {
@@ -131,6 +172,27 @@
       padding: .5em;
       text-align: center;
       text-transform: uppercase;
+  }
+
+  h4 {
+      font-family: 'Antic Didone', serif;
+      color: black;
+      margin: 0;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+
+  .photoshoots {
+      font-size: 2em;
+      font-family: 'Abril Fatface', cursive;
+      color: white;
+      margin: 0;
+      padding-bottom: 1em;
+      text-align: center;
+      text-shadow: .08em .08em #EE1B49;
   }
 
   section img {
@@ -150,10 +212,6 @@
       padding: 0;
   }
 
-  .like {
-      width: 15%;
-  }
-
   video {
       padding: .5em;
       width: 100%;
@@ -165,6 +223,16 @@
       width: 100%;
       height: auto;
   }
+
+
+  textarea {
+      width: 100%;
+      line-height: 1.5em;
+      height: 150px;
+      border-radius: .5em;
+  }
+
+
 
 
   /*footer*/
@@ -279,7 +347,7 @@
   }
 
 
-  /*micro-animatie*/
+  /*inspiration micro-animatie*/
 
   .button {
       color: white;
@@ -328,6 +396,59 @@
           transform: scale(1);
       }
   }
+
+  /*inspiration feedback*/
+
+  .news {
+      font-size: 1.8em;
+  }
+
+  #antwoord {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      color: white;
+      border-radius: .2em;
+      position: static;
+      font-family: proxima-nova, sans-serif;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 1.5em;
+      background: #EE1B49;
+      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
+      border-radius: .5em;
+  }
+
+  #nieuwsbrief {
+      color: white;
+      border: none;
+      max-width: calc(100% - 0px);
+      margin: auto;
+      font-family: proxima-nova, sans-serif;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 1.5em;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: .2em;
+      padding-bottom: .2em;
+      background: #EE1B49;
+      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
+      border-radius: .5em;
+  }
+
+  /*ray of light animatie*/
+  /*  .like {
+      width: 15%;
+  }
+
+  .unlike {
+      width: 15%;
+  }
+
+  div.like {}*/
 
 
   /*breakpoints*/
