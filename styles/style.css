@@ -1,481 +1,515 @@
-  /* CSS Document */
-  /*alle afbeeldingen komt van https://www.mirror-mirror.nl/*/
-  *,
-  *::after,
-  *::before {
-      box-sizing: border-box;
-  }
+   /* CSS Document */
+   /*alle afbeeldingen komt van https://www.mirror-mirror.nl/*/
+   *,
+   *::after,
+   *::before {
+       box-sizing: border-box;
+   }
 
-  img {
-      display: flex;
-  }
-
-
-  /*header*/
-
-  #logo {
-      padding-top: 1em;
-      margin: auto;
-      max-width: calc(100% - 20px);
-      position: relative;
-      z-index: 2;
-  }
+   img {
+       display: flex;
+   }
 
 
-  /*slider*/
+   /*header*/
 
-  .slider {
-      display: flex;
-      overflow-x: auto;
-      z-index: 1;
-      margin: -7em 0 0 0;
-  }
-
-  .slide {
-      width: 100%;
-      height: auto;
-  }
+   #logo {
+       padding-top: 1em;
+       margin: auto;
+       max-width: calc(100% - 20px);
+       position: relative;
+       z-index: 2;
+   }
 
 
-  /*nav*/
+   /*slider*/
 
-  .menu {
-      padding-top: 17em;
-  }
+   .slider {
+       display: flex;
+       overflow-x: auto;
+       z-index: 1;
+       margin: -7em 0 0 0;
+   }
 
-  nav {
-      display: flex;
-      color: white;
-      width: 100%;
-      z-index: 2;
-  }
+   .slide {
+       width: 100%;
+       height: auto;
+   }
 
-  main ul li a {
-      list-style: none;
-  }
 
-  header nav ul {
-      display: flex;
-      padding: 1em;
-      flex: auto;
-      list-style: none;
-      justify-content: center;
-  }
+   /*nav*/
 
-  header nav ul li a {
-      padding: .5em;
-      margin: .5em;
-      text-decoration: none;
-      color: black;
-      font-size: 1rem;
-      font-family: 'Abril Fatface', cursive;
-  }
+   .menu {
+       padding-top: 17em;
+   }
 
-  #inspiration nav ul li a {
-      padding: .5em;
-      margin: .5em;
-      text-decoration: none;
-      color: white;
-      font-size: 1em;
-      font-family: 'Abril Fatface', cursive;
-  }
+   nav {
+       display: flex;
+       color: white;
+       width: 100%;
+       z-index: 2;
+   }
 
-  #inspiration li a {
-      text-shadow: .1em .1em #EE1B49;
-  }
+   main ul li a {
+       list-style: none;
+   }
 
-  #rol nav ul li a {
-      /*      padding: .5em;
+   header nav ul {
+       display: flex;
+       padding: 1em;
+       flex: auto;
+       list-style: none;
+       justify-content: center;
+   }
+
+   header nav ul li a {
+       padding: .5em;
+       margin: .5em;
+       text-decoration: none;
+       color: black;
+       font-size: 1rem;
+       font-family: 'Abril Fatface', cursive;
+   }
+
+   #inspiration nav ul li a {
+       padding: .5em;
+       margin: .5em;
+       text-decoration: none;
+       color: white;
+       font-size: 1em;
+       font-family: 'Abril Fatface', cursive;
+   }
+
+   #inspiration li a {
+       text-shadow: .1em .1em #EE1B49;
+   }
+
+   #rol nav ul li a {
+       /*      padding: .5em;
       margin: .5em;*/
-      text-decoration: none;
-      color: white;
-      font-size: 1em;
-      font-family: 'Abril Fatface', cursive;
-  }
-
-  #rol li a {
-      text-shadow: .1em .1em #EE1B49;
-  }
-
-
-  /*header image inspiration*/
-
-  #inspiration {
-      background-image: url(../images/inspiration.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-  }
-
-  #rol {
-      background-image: url(../images/rol.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-  }
-
-  #rol h1 {
-      padding-top: 2em;
-      color: white;
-      font-size: 2em;
-  }
-
-  #rol time {
-      color: white;
-      font-size: 1.5em;
-  }
-
-  /*main*/
-
-  blockquote {
-      font-family: 'Antic Didone', serif;
-      color: black;
-      text-align: center;
-      font-size: 1.2em;
-  }
-
-  time {
-      font-family: ltc-bodoni-175, serif;
-      font-style: italic;
-      font-weight: 400;
-      font-size: 1em;
-      color: rgba(0, 0, 0, 0.5);
-      text-align: center;
-      display: block;
-      padding-bottom: 1em;
-      margin: auto;
-  }
-
-  h1 {
-      font-size: 1.5em;
-      font-family: 'Abril Fatface', cursive;
-      color: black;
-      margin: 0;
-      padding-bottom: 1em;
-      text-align: center;
-      text-shadow: .08em .08em #EE1B49;
-  }
-
-  h2 {
-      font-family: 'Antic Didone', serif;
-      color: black;
-      margin: 0;
-      padding: .5em;
-      text-align: center;
-      text-transform: uppercase;
-  }
-
-  h3 {
-      font-family: 'Antic Didone', serif;
-      color: black;
-      margin: 0;
-      padding: .5em;
-      text-align: center;
-      text-transform: uppercase;
-  }
-
-  h4 {
-      font-family: 'Antic Didone', serif;
-      color: black;
-      margin: 0;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      text-align: center;
-      text-transform: uppercase;
-  }
-
-
-  .photoshoots {
-      font-size: 2em;
-      font-family: 'Abril Fatface', cursive;
-      color: white;
-      margin: 0;
-      padding-bottom: 1em;
-      text-align: center;
-      text-shadow: .08em .08em #EE1B49;
-  }
-
-  section img {
-      padding: 1em;
-      padding-bottom: 1.2em;
-  }
-
-  article img {
-      width: 100%;
-  }
-
-  article ul li {
-      list-style: none;
-  }
-
-  article ul {
-      padding: 0;
-  }
-
-  video {
-      padding: .5em;
-      width: 100%;
-      height: auto;
-  }
-
-  .banner {
-      padding: .5em;
-      width: 100%;
-      height: auto;
-  }
-
-
-  textarea {
-      width: 100%;
-      line-height: 1.5em;
-      height: 150px;
-      border-radius: .5em;
-  }
-
-
-
-
-  /*footer*/
-
-  footer {
-      display: inline-block;
-      width: 100%;
-      background-color: #D8D4D8;
-      padding: 3em;
-      justify-content: center;
-  }
-
-  footer ul {
-      display: flex;
-      flex: auto;
-      padding-bottom: 1em;
-      color: white;
-  }
-
-  footer ul li {
-      display: flex;
-      flex: auto;
-      list-style: none;
-  }
-
-  footer img {
-      width: 3em;
-      height: auto;
-  }
-
-  .icons {
-      display: flex;
-      justify-content: center;
-  }
-
-  p {
-      font-family: proxima-nova, sans-serif;
-      font-style: normal;
-      font-weight: 100;
-      color: black;
-      text-align: center;
-  }
-
-  p a {
-      text-decoration: none;
-      color: black;
-      text-transform: uppercase;
-  }
-
-  section article button {
-      display: flex;
-      align-content: center;
-      justify-content: center;
-      text-align: center;
-  }
-
-
-  /*states*/
-
-  /*a*/
-  a:hover {
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .3);
-      border-radius: .5em;
-  }
-
-  a:focus {
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
-      border-radius: .5em;
-      outline-color: #EE1B49;
-  }
-
-  a:active {
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
-      border-radius: .5em;
-  }
-
-  /*button*/
-  .button:hover {
-      background-color: #f2a3f5;
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
-  }
-
-  button:active {
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
-      transform: scale(0.9);
-      border-color: #EE1B49;
-  }
-
-  .button:focus {
-      background-color: #f2a3f5;
-      outline-color: #EE1B49;
-  }
-
-  button:focus {
-      outline-color: #f2a3f5;
-      outline-width: 1em;
-  }
-
-  /*hartje*/
-  .hart:hover {
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
-      border-radius: .9em;
-  }
-
-  .hart:focus {
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
-  }
-
-  .hart:active {
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
-      border-radius: .9em;
-  }
-
-
-  /*inspiration micro-animatie*/
-
-  .button {
-      color: white;
-      border: none;
-      max-width: calc(100% - 0px);
-      margin: auto;
-      font-family: proxima-nova, sans-serif;
-      font-style: normal;
-      font-weight: 100;
-      font-size: 1.5em;
-      padding-left: 1em;
-      padding-right: 1em;
-      padding-top: .2em;
-      padding-bottom: .2em;
-      background: #EE1B49;
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
-      border-radius: .5em;
-  }
-
-  .hart {
-      position: fixed;
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, 1.5);
-      background-color: #EE1B49;
-      border-color: #EE1B49;
-      border-radius: .5em;
-      padding: .5em;
-      width: 3em;
-  }
-
-  div.hartje {
-      position: fixed;
-      animation-name: hartje;
-      animation-duration: .5s;
-  }
-
-  @keyframes hartje {
-      0% {
-          transform: scale(1);
-      }
-
-      50% {
-          transform: scale(1.7);
-      }
-
-      100% {
-          transform: scale(1);
-      }
-  }
-
-  /*inspiration feedback*/
-
-  .news {
-      font-size: 1.8em;
-  }
-
-  #antwoord {
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      position: absolute;
-      top: 0;
-      color: white;
-      border-radius: .2em;
-      position: static;
-      font-family: proxima-nova, sans-serif;
-      font-style: normal;
-      font-weight: 100;
-      font-size: 1.5em;
-      background: #EE1B49;
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
-      border-radius: .5em;
-  }
-
-  #nieuwsbrief {
-      color: white;
-      border: none;
-      max-width: calc(100% - 0px);
-      margin: auto;
-      font-family: proxima-nova, sans-serif;
-      font-style: normal;
-      font-weight: 100;
-      font-size: 1.5em;
-      padding-left: 1em;
-      padding-right: 1em;
-      padding-top: .2em;
-      padding-bottom: .2em;
-      background: #EE1B49;
-      box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
-      border-radius: .5em;
-  }
-
-  /*ray of light animatie*/
-  /*  .like {
-      width: 15%;
-  }
-
-  .unlike {
-      width: 15%;
-  }
-
-  div.like {}*/
-
-
-  /*breakpoints*/
-
-  @media (min-width:40em) {
-      .covers {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-gap: 2em;
-          padding: 1em;
-      }
-  }
-
-  @media (min-width:40em) {
-      .inspog {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-gap: .2em;
-          padding: 1em;
-      }
-  }
-
-  @media (min-width:60em) {
-      .inspog {
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-gap: .2em;
-          padding: 1em;
-      }
-  }
+       text-decoration: none;
+       color: white;
+       font-size: 1em;
+       font-family: 'Abril Fatface', cursive;
+   }
+
+   #rol li a {
+       text-shadow: .1em .1em #EE1B49;
+   }
+
+
+   /*header image inspiration*/
+
+   #inspiration {
+       background-image: url(../images/inspiration.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+   }
+
+   #rol {
+       background-image: url(../images/rol.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+   }
+
+   #rol h1 {
+       padding-top: 2em;
+       color: white;
+       font-size: 2em;
+   }
+
+   #rol time {
+       color: white;
+       font-size: 1.5em;
+   }
+
+   /*main*/
+
+   blockquote {
+       font-family: 'Antic Didone', serif;
+       color: black;
+       text-align: center;
+       font-size: 1.2em;
+   }
+
+   time {
+       font-family: ltc-bodoni-175, serif;
+       font-style: italic;
+       font-weight: 400;
+       font-size: 1em;
+       color: rgba(0, 0, 0, 0.5);
+       text-align: center;
+       display: block;
+       padding-bottom: 1em;
+       margin: auto;
+   }
+
+   h1 {
+       font-size: 1.5em;
+       font-family: 'Abril Fatface', cursive;
+       color: black;
+       margin: 0;
+       padding-bottom: 1em;
+       text-align: center;
+       text-shadow: .08em .08em #EE1B49;
+   }
+
+   h2 {
+       font-family: 'Antic Didone', serif;
+       color: black;
+       margin: 0;
+       padding: .5em;
+       text-align: center;
+       text-transform: uppercase;
+   }
+
+   h3 {
+       font-family: 'Antic Didone', serif;
+       color: black;
+       margin: 0;
+       padding: .5em;
+       text-align: center;
+       text-transform: uppercase;
+   }
+
+   h4 {
+       font-family: 'Antic Didone', serif;
+       color: black;
+       margin: 0;
+       padding-top: 2em;
+       padding-bottom: 2em;
+       text-align: center;
+       text-transform: uppercase;
+   }
+
+
+   .photoshoots {
+       font-size: 2em;
+       font-family: 'Abril Fatface', cursive;
+       color: white;
+       margin: 0;
+       padding-bottom: 1em;
+       text-align: center;
+       text-shadow: .08em .08em #EE1B49;
+   }
+
+   section img {
+       padding: 1em;
+       padding-bottom: 1.2em;
+   }
+
+    section img {
+       width: 100%;
+   }
+
+   article section img {
+           width: 100%;
+   }
+
+   section ul li {
+       list-style: none;
+   }
+
+   section ul {
+       padding: 0;
+   }
+
+   video {
+       padding: .5em;
+       width: 100%;
+       height: auto;
+   }
+
+   .banner {
+       padding: .5em;
+       width: 100%;
+       height: auto;
+   }
+
+   textarea {
+       width: 100%;
+       line-height: 1.5em;
+       height: 150px;
+       border-radius: .5em;
+   }
+
+
+
+
+   /*footer*/
+
+   footer {
+       display: inline-block;
+       width: 100%;
+       background-color: #D8D4D8;
+       padding: 3em;
+       justify-content: center;
+   }
+
+   footer ul {
+       display: flex;
+       flex: auto;
+       padding-bottom: 1em;
+       color: white;
+   }
+
+   footer ul li {
+       display: flex;
+       flex: auto;
+       list-style: none;
+   }
+
+   footer img {
+       width: 3em;
+       height: auto;
+   }
+
+   .icons {
+       display: flex;
+       justify-content: center;
+   }
+
+   p {
+       font-family: proxima-nova, sans-serif;
+       font-style: normal;
+       font-weight: 100;
+       color: black;
+       text-align: center;
+   }
+
+   p a {
+       text-decoration: none;
+       color: black;
+       text-transform: uppercase;
+   }
+
+   section article button {
+       display: flex;
+       align-content: center;
+       justify-content: center;
+       text-align: center;
+   }
+
+
+   /*states*/
+
+   /*a*/
+   a:hover {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .3);
+       border-radius: .5em;
+   }
+
+   a:focus {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
+       border-radius: .5em;
+       outline-color: #EE1B49;
+   }
+
+   a:active {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
+       border-radius: .5em;
+   }
+
+   /*button*/
+   .button:hover {
+       background-color: #f2a3f5;
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
+   }
+
+   button:active {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+       transform: scale(0.9);
+       border-color: #EE1B49;
+   }
+
+   .button:focus {
+       background-color: #f2a3f5;
+       outline-color: #EE1B49;
+   }
+
+   button:focus {
+       outline-color: #f2a3f5;
+       outline-width: 1em;
+   }
+
+   /*hartje*/
+   .hart:hover {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+       border-radius: .9em;
+   }
+
+   .hart:focus {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+   }
+
+   .hart:active {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+       border-radius: .9em;
+   }
+
+
+   /*inspiration micro-animatie*/
+
+   .button {
+       color: white;
+       border: none;
+       max-width: calc(100% - 0px);
+       margin: auto;
+       font-family: proxima-nova, sans-serif;
+       font-style: normal;
+       font-weight: 100;
+       font-size: 1.5em;
+       padding-left: 1em;
+       padding-right: 1em;
+       padding-top: .2em;
+       padding-bottom: .2em;
+       background: #EE1B49;
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
+       border-radius: .5em;
+   }
+
+   .hart {
+       position: fixed;
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, 1.5);
+       background-color: #EE1B49;
+       border-color: #EE1B49;
+       border-radius: .5em;
+       padding: .5em;
+       width: 3em;
+   }
+
+   div.hartje {
+       position: fixed;
+       animation-name: hartje;
+       animation-duration: .5s;
+   }
+
+   @keyframes hartje {
+       0% {
+           transform: scale(1);
+       }
+
+       50% {
+           transform: scale(1.7);
+       }
+
+       100% {
+           transform: scale(1);
+       }
+   }
+
+   /*inspiration feedback*/
+
+   button {
+       margin: auto;
+       max-width: calc(100% - 20px);
+   }
+
+   .signupbutton {
+       color: white;
+       border: none;
+       width: 100%;
+       align-content: center;
+       font-family: proxima-nova, sans-serif;
+       font-style: normal;
+       font-weight: 100;
+       font-size: 1.5em;
+       padding-top: .5em;
+       padding-bottom: .5em;
+       background: #EE1B49;
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
+       border-radius: .5em;
+   }
+
+   .okbutton {
+       color: white;
+       border: none;
+       justify-content: center;
+       position: absolute;
+       font-family: proxima-nova, sans-serif;
+       font-style: normal;
+       font-weight: 100;
+       font-size: 1em;
+       padding-left: .5em;
+       padding-right: .5em;
+       padding-top: .5em;
+       padding-bottom: .5em;
+       background: #EE1B49;
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
+       border-radius: .2em;
+   }
+
+   .popup-container {
+       position: fixed;
+       opacity: 0;
+       transition: 200ms ease-in-out;
+       background-color: rgba(0, 0, 0, .3);
+       pointer-events: none;
+   }
+
+   .popup-container.show {
+       opacity: 1;
+       pointer-events: auto;
+       transition: 200ms ease-in-out;
+   }
+
+
+   .popupkop {
+       font-family: 'Antic Didone', serif;
+       justify-content: center;
+       font-size: 1.5em;
+       font-weight: bold;
+   }
+
+   .popuptekst {
+       font-family: 'Antic Didone', serif;
+       justify-content: center;
+       font-size: .5em;
+       font-weight: bold;
+   }
+
+   .divpopup {
+       position: fixed;
+       content: calc(100% - 20px);
+       top: 15em;
+       left: 17em;
+       transform: translate(-50%, -50%);
+       background-color: white;
+       border-radius: 10px;
+       padding: 1em 5em;
+       width: 20em;
+       max-width: 20em;
+       text-align: center;
+   }
+
+
+   /*breakpoints*/
+
+   @media (min-width:40em) {
+       .covers {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-gap: 2em;
+           padding: 1em;
+       }
+   }
+
+   @media (min-width:40em) {
+       .inspog {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-gap: .2em;
+           padding: 1em;
+       }
+   }
+
+   @media (min-width:60em) {
+       .inspog {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           grid-gap: .2em;
+           padding: 1em;
+       }
+   }

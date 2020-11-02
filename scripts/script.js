@@ -4,10 +4,11 @@
 
 var button = document.querySelector("button");
 var hartje = document.querySelector("div");
-var nieuwsbriefsKnop = document.querySelector('#nieuwsbrief');
-var antwoordTekst = document.querySelector('#antwoord');
+var popupopen = document.getElementById('popupopen');
+var popup_container = document.getElementById('popup_container');
+var popupclose = document.getElementById('popupclose');
+var overlay = document.getElementById('overlay');
 
-setTimeout(signUp, 1000);
 
 // function
 
@@ -15,21 +16,18 @@ function likeButton() {
     hartje.classList.toggle("hartje");
 }
 
-function signUp() {
-    antwoordTekst.textContent = 'Thank you for signing up!';
+function hidePopup(){
+	popup_container.classList.remove('show');
 }
 
+function showPopup (){
+	popup_container.classList.add('show');
+}
 
 // eventlistener
 
 addEventListener('click', likeButton);
-nieuwsbriefsKnop.addEventListener('click', signUp);
+popupclose.addEventListener('click',hidePopup)
+popupopen.addEventListener('click', showPopup)
 
 
-
-console.log(button);
-
-
-
-
-console.log("button was clicked");
