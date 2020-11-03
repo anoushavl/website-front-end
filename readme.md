@@ -1,4 +1,21 @@
-# Procesverslag
+ ## HERKANSING
+
+ Ik heb alle feedback verwerkt. Ik heb meer interactieve elementen toegevoegd op de home page, hier heb ik een hover over alle covers gedaan en doorverwezen naar een nieuwe pagina en de video is gelinkt met youtube. 
+ Op de inspiration pagina heb ik een popupmelding toegevoegd met de button 'sign up'. Op deze pagina heb ik ook een hover op de afbeeldingen en de titels gezet. Hier kan op geklikt worden en deze worden naar de nieuwe pagina verwezen.  
+ Op de nieuwe photoshoot 'ray of light' pagina heb ik ook de button toegevoegd en dezelfde hover als op de homepage. 
+
+ De headings in de sections zijn toegevoegd, de h1's zijn aan alle pagina's toegevoegd en er kan niet meer op de slider geklikt worden die het beeld dan blokt. 
+
+**Screenshot(s):**
+
+![hover op de images](images/screenhover.png)
+![popup feedback](images/screenpopup.png)
+![slider met h1](images/screensliderzonderdiv.png)
+
+
+
+
+ # Procesverslag
 -Anousha van Leent-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.

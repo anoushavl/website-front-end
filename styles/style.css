@@ -1,5 +1,5 @@
    /* CSS Document */
-   /*alle afbeeldingen komt van https://www.mirror-mirror.nl/*/
+   /*alle afbeeldingen komen van https://www.mirror-mirror.nl/*/
    *,
    *::after,
    *::before {
@@ -69,6 +69,7 @@
        color: black;
        font-size: 1rem;
        font-family: 'Abril Fatface', cursive;
+       text-transform: uppercase;
    }
 
    #inspiration nav ul li a {
@@ -78,6 +79,7 @@
        color: white;
        font-size: 1em;
        font-family: 'Abril Fatface', cursive;
+       text-transform: uppercase;
    }
 
    #inspiration li a {
@@ -85,12 +87,11 @@
    }
 
    #rol nav ul li a {
-       /*      padding: .5em;
-      margin: .5em;*/
        text-decoration: none;
        color: white;
        font-size: 1em;
        font-family: 'Abril Fatface', cursive;
+       text-transform: uppercase;
    }
 
    #rol li a {
@@ -98,7 +99,7 @@
    }
 
 
-   /*header image inspiration*/
+   /*header image inspiration en rayoflight*/
 
    #inspiration {
        background-image: url(../images/inspiration.jpg);
@@ -112,17 +113,6 @@
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
-   }
-
-   #rol h1 {
-       padding-top: 2em;
-       color: white;
-       font-size: 2em;
-   }
-
-   #rol time {
-       color: white;
-       font-size: 1.5em;
    }
 
    /*main*/
@@ -146,6 +136,18 @@
        margin: auto;
    }
 
+   .hashtag {
+       font-size: 1.5em;
+       font-family: 'Abril Fatface', cursive;
+       color: black;
+       margin: 0;
+       padding-bottom: 1em;
+       text-align: center;
+       text-shadow: .08em .08em #EE1B49;
+       text-transform: uppercase;
+
+   }
+
    h1 {
        font-size: 1.5em;
        font-family: 'Abril Fatface', cursive;
@@ -154,6 +156,7 @@
        padding-bottom: 1em;
        text-align: center;
        text-shadow: .08em .08em #EE1B49;
+       text-transform: uppercase;
    }
 
    h2 {
@@ -166,6 +169,7 @@
    }
 
    h3 {
+       font-size: 1.5em;
        font-family: 'Antic Didone', serif;
        color: black;
        margin: 0;
@@ -184,6 +188,18 @@
        text-transform: uppercase;
    }
 
+   .verstoph {
+       overflow: hidden;
+       border: 0;
+       clip: rect(1px, 1px, 1px, 1px);
+       clip-path: inset(50%);
+       height: 1px;
+       margin: -1px;
+       padding: 0;
+       position: absolute;
+       width: 1px;
+       word-wrap: normal !important;
+   }
 
    .photoshoots {
        font-size: 2em;
@@ -200,12 +216,12 @@
        padding-bottom: 1.2em;
    }
 
-    section img {
+   section img {
        width: 100%;
    }
 
    article section img {
-           width: 100%;
+       width: 100%;
    }
 
    section ul li {
@@ -235,8 +251,42 @@
        border-radius: .5em;
    }
 
+   a {
+       list-style: none;
+       text-decoration-line: none;
+   }
 
+   #rol h1 {
+       padding-top: 2em;
+       color: white;
+       font-size: 2em;
+   }
 
+   #rol time {
+       color: white;
+       font-size: 1.5em;
+   }
+
+   .rolshoot {
+       display: flex;
+       margin: auto;
+       max-width: calc(70% - 20px);
+   }
+
+   .pnewsletter {
+       padding-top: 1em;
+       font-family: 'Antic Didone', serif;
+       color: black;
+       text-align: center;
+       font-size: 1.2em;
+   }
+
+   .divider {
+       border-top: .2em solid #EE1B49;
+       height: .5em;
+       margin: 1.5em 0;
+       width: 80%;
+   }
 
    /*footer*/
 
@@ -292,27 +342,101 @@
        text-align: center;
    }
 
-
    /*states*/
 
    /*a*/
    a:hover {
        box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .3);
        border-radius: .5em;
+       text-decoration: underline;
    }
 
    a:focus {
        box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
        border-radius: .5em;
        outline-color: #EE1B49;
+       text-decoration: underline;
    }
 
    a:active {
        box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
        border-radius: .5em;
+       text-decoration: underline;
    }
 
-   /*button*/
+   /*images, heading en sign up button*/
+   .signupbutton:hover {
+       background-color: #f2a3f5;
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
+   }
+
+   .signupbutton:active {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+       transform: scale(0.9);
+       border-color: #EE1B49;
+   }
+
+   .signupbutton:focus {
+       background-color: #f2a3f5;
+       outline-color: #EE1B49;
+   }
+
+   .okbutton:hover {
+       background-color: #f2a3f5;
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
+   }
+
+   .okbutton:active {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+       transform: scale(0.9);
+       border-color: #EE1B49;
+   }
+
+   .okbutton:focus {
+       background-color: #f2a3f5;
+       outline-color: #EE1B49;
+   }
+
+   .imginspo:hover {
+       opacity: .5;
+   }
+
+   .imginspo:active {
+       transform: scale(0.9);
+   }
+
+   .imginspo:focus {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+       outline-color: #EE1B49;
+   }
+
+   .rolshoot:hover {
+       opacity: .5;
+   }
+
+   .rolshoot:active {
+       transform: scale(0.9);
+   }
+
+   .rolshoot:focus {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+       outline-color: #EE1B49;
+   }
+
+   .hinspo:hover {
+       text-decoration: underline;
+   }
+
+   .hashtag:hover {
+       text-decoration: underline;
+   }
+
+   .hashtag:focus {
+       box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .5);
+       outline-color: #EE1B49;
+   }
+
+   /*like button*/
    .button:hover {
        background-color: #f2a3f5;
        box-shadow: inset 0 -1em rgba(0, 0, 0, .08), 0 0 1em rgba(0, 0, 0, .9);
@@ -350,13 +474,12 @@
    }
 
 
-   /*inspiration micro-animatie*/
+   /*inspiration like animatie*/
 
    .button {
+       display: block;
        color: white;
        border: none;
-       max-width: calc(100% - 0px);
-       margin: auto;
        font-family: proxima-nova, sans-serif;
        font-style: normal;
        font-weight: 100;
@@ -375,7 +498,7 @@
        box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, 1.5);
        background-color: #EE1B49;
        border-color: #EE1B49;
-       border-radius: .5em;
+       border-radius: 2em;
        padding: .5em;
        width: 3em;
    }
@@ -387,31 +510,27 @@
    }
 
    @keyframes hartje {
-       0% {
-           transform: scale(1);
+       from {
+           transform: rotate(0deg);
        }
 
-       50% {
-           transform: scale(1.7);
-       }
-
-       100% {
-           transform: scale(1);
+       to {
+           transform: rotate(360deg);
        }
    }
 
-   /*inspiration feedback*/
+   /*inspiration feedback popup*/
 
    button {
        margin: auto;
        max-width: calc(100% - 20px);
+       text-transform: uppercase;
    }
 
    .signupbutton {
+       display: block;
        color: white;
        border: none;
-       width: 100%;
-       align-content: center;
        font-family: proxima-nova, sans-serif;
        font-style: normal;
        font-weight: 100;
@@ -421,17 +540,17 @@
        background: #EE1B49;
        box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 .5em rgba(0, 0, 0, .5);
        border-radius: .5em;
+       margin-bottom: 1em;
    }
 
    .okbutton {
+       display: block;
        color: white;
        border: none;
-       justify-content: center;
-       position: absolute;
        font-family: proxima-nova, sans-serif;
        font-style: normal;
        font-weight: 100;
-       font-size: 1em;
+       font-size: 1.5em;
        padding-left: .5em;
        padding-right: .5em;
        padding-top: .5em;
@@ -455,7 +574,6 @@
        transition: 200ms ease-in-out;
    }
 
-
    .popupkop {
        font-family: 'Antic Didone', serif;
        justify-content: center;
@@ -466,24 +584,25 @@
    .popuptekst {
        font-family: 'Antic Didone', serif;
        justify-content: center;
-       font-size: .5em;
+       font-size: 1em;
        font-weight: bold;
    }
 
    .divpopup {
        position: fixed;
-       content: calc(100% - 20px);
-       top: 15em;
-       left: 17em;
+       top: 50%;
+       left: 50%;
        transform: translate(-50%, -50%);
        background-color: white;
-       border-radius: 10px;
+       border-radius: 1em;
+       border: solid;
+       border-color: #EE1B49;
+       -webkit-box-shadow: 0 .625em .375em -.188px #777;
        padding: 1em 5em;
-       width: 20em;
-       max-width: 20em;
+       width: 70%;
+       max-width: 70%;
        text-align: center;
    }
-
 
    /*breakpoints*/
 
